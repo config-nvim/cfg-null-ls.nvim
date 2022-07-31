@@ -5,10 +5,10 @@ local completion = null_ls.builtins.completion
 -- local code_actions = null_ls.builtins.code_actions
 -- local hover = null_ls.builtins.hover
 
--- null_ls.setup({
--- 	sources = {
--- 		-- diagnostics.luacheck,
--- 		formatting.stylua,
--- 		completion.spell,
--- 	},
--- })
+null_ls.setup({
+	sources = {
+		-- diagnostics.luacheck,
+		completion.spell,
+        completion.luasnip,
+	},
+})

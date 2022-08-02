@@ -7,7 +7,7 @@ local diagnostics = null_ls.builtins.diagnostics
 
 null_ls.setup {
   sources = {
-    diagnostics.selene,
+    -- diagnostics.selene,
     formatting.stylua,
     completion.spell,
     completion.luasnip,
